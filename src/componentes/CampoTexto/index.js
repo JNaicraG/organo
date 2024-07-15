@@ -11,7 +11,7 @@ const CampoTexto = (props) =>{
         //setValue(event.target.value);
         //console.log(value);
         //Buscar duma forma menos local
-        props.onChange(event.target.value)
+        props.onChange(event.target.value);
 
     }
 
