@@ -5,19 +5,19 @@ import { useState } from 'react'
 import './Formulario.css'
 
 const Formulario = (props) => {
-    const times = [
-        'Back-End',
-        'Front-End',
-        'Data-Science',
-        'DevOps',
-        'UX e Design',
-        'Mobile',
-        'Inovação e Gestão'
-    ];
+    //const times = [
+    //    'Back-End',
+    //    'Front-End',
+    //    'Data-Science',
+    //    'DevOps',
+    //    'UX e Design',
+    //    'Mobile',
+    //    'Inovação e Gestão'
+    //];
     const [nome, setNome] = useState('') //valor inicial ''
     const [cargo, setCargo] = useState('Instrutor') //valor inicial ''
     const [imagem, setImagem] = useState('http...') //valor inicial ''
-    const [time, setTime] = useState(times[0]) //valor inicial ''
+    const [time, setTime] = useState(props.times[0]) //valor inicial ''
 
     const onSubmit = (event) => {
         console.log('Form submetido');
@@ -58,7 +58,7 @@ const Formulario = (props) => {
                     value={time}
                     required={true}
                     label="Time"
-                    lista={times}
+                    lista={props.times}
                     onChange={value => setTime(value)} //onChange em lambda no componente
                 />
                 <Botao>

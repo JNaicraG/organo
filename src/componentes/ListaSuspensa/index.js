@@ -6,6 +6,7 @@ const ListaSuspensa = (props) => {
             <label>{props.label}</label>
             <select required={props.required} value={props.value} onChange={event => props.onChange(event.target.value)}>
                 {
+                    //props.lista.map(item => <option key={item.nome}>{item.nome}</option>)
                     props.lista.map(item => <option key={item}>{item}</option>)
                 }
             </select>
