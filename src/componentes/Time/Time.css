@@ -1,7 +1,7 @@
 .time{
-    display: flex;
-    justify-content: center;
-    /*text-align: center;*/
+    /*display: flex;
+    justify-content: center;*/
+    text-align: center;
     padding: 32px;
     /*background-color: #D9f7e9;*/
 }
@@ -10,4 +10,11 @@
     font-size: 32px;
     border-bottom: 4px solid ;/*#57c278;*/
     /*display: inline-block;*/
+}
+
+.time .colaboradores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap; /*se não couber tudo na mesma linha, ir para próxima*/
 }

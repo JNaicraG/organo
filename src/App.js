@@ -55,7 +55,13 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario times={times.map(time => time.nome)} onSubmit={colaborador => onSaveNewColaborador(colaborador)} />
-      {times.map(time => <Time nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} key={time.nome} />)}
+      {times.map(time => <Time 
+      nome={time.nome} 
+      corPrimaria={time.corPrimaria} 
+      corSecundaria={time.corSecundaria} 
+      key={time.nome} 
+      colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+      />)}
     </div>
   );
 }
