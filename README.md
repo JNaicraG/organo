@@ -1,9 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Formação Explore React com JavaScript
+    Projeto realizado seguindo a formação mencionada, este projeto é idealizado pelo curso: "React - Desenvolvedo com Javascript", ensinando os fundamentos do React.
+    Abaixo estão as instruções comuns/padrão para inicialização e navegação duma aplicação React.
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
