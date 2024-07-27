@@ -4,9 +4,15 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='icons'>
-                <img src='/imagens/fb.png' alt='' />
-                <img src='/imagens/tw.png' alt='' />
-                <img src='/imagens/ig.png' alt='' />
+                <a href="facebook.com" target="_blank">
+                    <img src='/imagens/fb.png' alt='' />
+                </a>
+                <a href="facebook.com" target="_blank">
+                    <img src='/imagens/tw.png' alt='' />
+                </a>
+                <a href="facebook.com" target="_blank">
+                    <img src='/imagens/ig.png' alt='' />
+                </a>
             </div>
             <div className='logo'>
                 <img src='/imagens/logo.png' alt='' />
