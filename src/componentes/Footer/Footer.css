@@ -1,0 +1,33 @@
+.footer{
+    background-color: #6278F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*min-height: 232px;*/
+    height: 100%;
+    margin-top: 32px;
+    gap:12px;
+    padding: 48px;
+    background-image: url("/public/imagens/fundo.png");
+}
+
+.footer .icons{
+    display: inherit;
+    gap: 8px;
+}
+
+
+.footer .icons img{
+    --tamanho:32px;
+    height: var(--tamanho);
+    width: var(--tamanho);
+}
+
+.footer .logo img{
+    height: 80%;
+}
+.footer .creditos{
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+
+}
