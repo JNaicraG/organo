@@ -2,9 +2,12 @@ import './Banner.css'
 
 export const Banner = () => {
     return (
+        //Tem o mesmo efeito de <Fragment> </Fragment> o <>
+        <> 
         <header className='banner'>
             <img src="/imagens/banner.png" alt="O banner principal da página do Organo"></img>
         </header>
+        </>
     )
 }
 
