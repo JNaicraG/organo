@@ -13,7 +13,7 @@ const Time = (props) => {
             </h3>
             <div className='colaboradores'>
                 {props.colaboradores.map(colaborador => {
-                    return <Colaborador nome={colaborador.nome} cargo={colaborador.cargo} key={colaborador.nome} />
+                    return <Colaborador imagem={colaborador.imagem} nome={colaborador.nome} corFundo={props.corPrimaria} cargo={colaborador.cargo} key={colaborador.nome} />
                 })}
             </div>
         </section> : ''
